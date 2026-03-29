@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda Charter | Resume</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    /* keep resume image above the text in the About section */
+    #about .about-grid { display: grid !important; grid-template-columns: 1fr !important; gap: 1rem; }
+    #about .about-grid .about-text { order: 2; text-align: left; }
+    #about .about-grid .profile-img { order: 1; margin: 0 auto; }
+    #about .section-title { text-align: center; }
+    #about .about-text h1 { font-size: 3rem; text-align: center; }
+    #about .about-text h3 { text-align: center; }
+    #about .about-text p { margin-left: auto; margin-right: auto; max-width: 700px; }
+    #about .about-text a.btn { display: block; margin: 1.5rem auto 0; width: max-content; }
+    /* remove inline style from heading text */
+    .highlight-cert { color: #3e9e73; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo"><a href="../index.html">Amanda Charter | Portfolio</a></div>
+    <ul>
+      <li><a href="../resume/resume.html">Resume</a></li>
+      <li><a href="../projects/projects.html">Projects</a></li>
+      <li><a href="../skills/skills.html">Skills</a></li>
+      <li><a href="../contact/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+ <!-- ABOUT -->
+  <section id="about">
+    <h3 class="section-title">Introduction</h3>
+    <div class="about-grid">
+      <img src="../images/profile.jpg" alt="Profile photo" class="profile-img">
+      <div class="about-text">
+        <h1>Amanda Charter</h1>
+        <h3><span class="highlight-cert">Information Technology Systems Management &amp; Security Pre-Graduate</span></h3>
+        <br>
+        <p>As I approach the completion of the Information Technology Systems Management and Security program at the Truro, Nova Scotia Community College, I am excited about the opportunities ahead.</p>
+        <p>As someone who has faced many challenges and worked diligently to achieve my goals, I have developed a strong work ethic and resilience that I bring to every project. When I am not studying or working on projects, I enjoy drawing, video games, sports, hiking, and exploring new technologies.</p>
+        <p>As a student, I bring a high level of "coachability," a fresh perspective on emerging security trends, and a dedication to ethical decision-making. I am looking for a fast-paced environment where I can apply my drive and technical training to help shape a resilient identity infrastructure.</p>
+        <p>Identity and access management has been the focal point of my studies. For my capstone project, Fort Faux, I served as the Documentation and Security Analyst, where I helped design and secure a full network infrastructure for a simulated institution. This project allowed me to stress-test access controls and authentication policies through Red Team vs. Blue Team exercises, giving me a practical understanding of zero-trust principles and layered defense. Additionally, my self-directed project, AD2GO, allowed me to explore the intersection of mobility and security by building a web application for Active Directory management. Completing this project has taught me how to balance operational agility with strict security protocols, as well as exploring new skills such as web development, DevOps, and cloud technologies.</p>
+        <p>My Co-op experience as a Summer PC Technician with the Municipality of Colchester provided a bridge between my studies and the workforce. Working in a live government environment, I deployed SonicWall and FortiGate firewalls, configured workstations within an enterprise domain, and developed technical documentation to maintain consistent security standards. This role taught me the importance of IAM in a real-world setting where citizens and employees depend on secure, reliable access to services.</p>
+        <p>Now, The Municipality has accepted me back for another work term, and I am eager to apply my knowledge and skills in a professional setting, contributing to innovative projects and continuing to grow as an IT professional within their company.</p>
+        
+        <a href="acharter_resume_2026_updated.pdf" class="btn btn-outline" target="_blank">Resume</a>
+      </div>
+    </div>
+    </section>
+  </body>
+  </html>
