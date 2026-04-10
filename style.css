@@ -175,6 +175,7 @@ section {
 }
 #projects .project-grid {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: start;
 }
 
 #projects .card p {

@@ -1,3 +1,12 @@
 {
-    "claudeCodeChat.permissions.yoloMode": false
+    "claudeCodeChat.permissions.yoloMode": false,
+    "cSpell.words": [
+        "coachability",
+        "Forti",
+        "LDAPS",
+        "Nextcloud",
+        "NSCC",
+        "SIEM",
+        "Wazuh"
+    ]
 }
