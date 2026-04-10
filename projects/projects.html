@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amanda Charter | Portfolio</title>
+  <title>Amanda Charter | Projects</title>
   <link rel="stylesheet" href="../style.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -22,70 +22,64 @@
 
   <section id="projects">
     <h3 class="section-title projects-title">Projects</h3>
+    <p class="projects-intro">
+      Selected projects from my IT Systems Management and Security program, focused on secure administration, infrastructure, and practical deployment.
+    </p>
     <img src="../images/panda.png" alt="Panda" class="projects-panda">
+    <p class="projects-wip">Will be working on publishing more projects on this page.</p>
     <div class="project-grid">
-    <h1 class="projects-construction">Projects Page Under Construction</h1>
-
       <div class="card">
         <div class="card-tag">Windows Administration</div>
         <h4>AD2GO</h4>
-        <p>A secure Web App that enables administrators to manage Active Directory tasks directly from mobile devices. <br>
-          <br>
-          The platform utilizes a Python and FastAPI backend connected via LDAP, protected by VPN and JWT authentication to ensure enterprise-grade security without requiring a native app store.
-        </p>
-        <!----
+        <p>AD2GO is a secure web application that allows authorized users to manage their company’s Active Directory (AD) directly from their phones.</p>   
+        <p>Instead of being tied to a workstation, administrators can perform tasks such as creating user accounts, viewing inventory, and resetting passwords from any iOS or Android device.</p>
+
+        <h5>On the technical side:</h5>
+        <p>AD2GO uses Python and FastAPI for the backend, which connects to the target Active Directory through secure LDAP (LDAPS).</p>
+        <p>To protect remote access, the application is published through a Cloudflare Tunnel over HTTPS and uses JWT-based authentication.</p>
+        <p>The frontend is a Progressive Web App (PWA), AD2GO.ca, built with HTML, CSS, and JavaScript in Visual Studio Code.</p>
+        
         <div class="card-links">
-          <a href="#">GitHub</a>
-          <a href="#">Live Demo</a>
-        </div>-->
+          <a href="https://ad2go.ca" target="_blank">Live Demo</a>
+        </div>
       </div>
       <div class="card">
         <div class="card-tag">Cloud Storage</div>
         <h4>Hermes Hub</h4>
-        <p>Using Nextcloud, a team of 3 built a cloud storage solution for secure file sharing and collaboration. <br>
-          <br>
-          The project involved setting up a Raspberry Pi 4, configuring Nextcloud for user management and access control. The result was a private cloud storage platform that provided secure file sharing and collaboration capabilities for our team, demonstrating the potential of self-hosted solutions for data privacy and control.
-        </p>
-        <!----
+        <p>Working in a team of three, we built a secure cloud storage solution with Nextcloud for file sharing and collaboration.</p>
+        <p>The project included provisioning a Raspberry Pi 4 and configuring user management and access controls to deliver a practical self-hosted platform with strong privacy controls.</p>
+        
         <div class="card-links">
-          <a href="#">GitHub</a>
-          <a href="#">Live Demo</a>
-        </div>-->
+          <a href="https://nscc.sharepoint.com/sites/HermesHub" target="_blank">Live Demo</a>
+        </div>
       </div>
       <div class="card">
         <div class="card-tag">System Admin/Documentation/Security</div>
         <h4>Fort Faux</h4>
-        <p>Fort Faux, is a capstone project created and implemented by an assembled team of IT Systems Management and Security students with the Truro NSCC, to help execute the project to completion. <br>
-          <br>
-          The team of four created a well-documented, mid-complexity, network infrastructure, for a faux educational centre. The objective of the project was to replicate an educational centres network infrastructure by setting up the hardware and software required. <br>
-          <br>
-          The infrastructure relied on multiple servers using Window Server 2025, Security Onion and Wazuh for security monitoring, and Windows 11 for testing clients. The FF team then created multiple “Red team vs. Blue team” scenarios to assess the complexity of our faux educational centres security.<br>
-          <br>
-          The project was a success, and we were able to create a secure network infrastructure that met the requirements of the project. The project provided valuable experience in system administration, documentation, and security, and it was a great opportunity for the team to apply their skills in a real-world setting.
-        </p>
-        <!----
+        <p>Fort Faux was a capstone project delivered by a four-person IT Systems Management and Security team at NSCC Truro.</p>
+        <p>We designed and documented a mid-complexity network for a simulated educational center, deploying Windows Server 2025, Security Onion, Wazuh, and Windows 11 clients while building red-team versus blue-team scenarios for security testing.</p>
+        <p>The project strengthened my practical skills in infrastructure planning, documentation, and defensive security operations.</p>
+        
         <div class="card-links">
-          <a href="#">GitHub</a>
-          <a href="#">Live Demo</a>
-        </div>-->
+          <a href="https://github.com/ADCharter/fortfaux.local" target="_blank">GitHub</a>
+        </div>
       </div>
       <div class="card">
         <div class="card-tag">Web Development</div>
         <h4>This Portfolio</h4>
-        <p>This portfolio website showcases my projects and skills I have developed over the last 2 years during this IT Systems Management and Security program. <br>
-          <br>
-          The website is built using HTML, CSS, and JavaScript. It features a clean design, with a focus on usability and accessibility. The website is responsive, meaning it can be viewed on any device, from desktop to mobile. It includes sections for my resume, projects, skills, and contact information, making it easy for potential employers or collaborators to learn more about me and my work.
-        </p>
-        <!----
+        <p>This portfolio highlights projects and skills developed throughout my IT Systems Management and Security program.</p>
+        <p>Built with HTML, CSS, and JavaScript, it is designed for accessibility, responsive viewing across devices, and clear navigation for employers and collaborators.</p>
+        
         <div class="card-links">
-          <a href="#">GitHub</a>
-          <a href="#">Live Demo</a>
-        </div>-->
+          <a href="https://github.com/adcharter" target="_blank">GitHub</a>
+          
+        </div>
       </div>
-
-      
-
     </div>
   </section>
+  <footer>
+    <p>Amanda Charter | 2026</p>
+  </footer>
+
 </body>
 </html>
