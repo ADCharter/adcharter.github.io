@@ -23,22 +23,28 @@
   <section id="projects">
     <h3 class="section-title projects-title">Projects</h3>
     <p class="projects-intro">
-      Selected projects from my IT Systems Management and Security program, focused on secure administration, infrastructure, and practical deployment.
+      Selected projects from my IT Systems Management and Security program and beyond, focused on secure administration, infrastructure, and practical deployment.
     </p>
     <img src="../images/panda.png" alt="Panda" class="projects-panda">
     <p class="projects-wip">Will be working on publishing more projects on this page.</p>
     <div class="project-grid">
+      <div class="card">
+        <div class="card-tag">Application Development</div>
+        <h4>CivicAddressing</h4>
+        <p>CivicAddressing replaced a legacy FoxPro system (ASUBDIV) for managing subdivisions and civic addresses, and is deployed in production as a self-contained publish with Windows authentication.</p>
+        <p><strong>On the technical side:</strong> the solution has three parts: a .NET 8 / C# WinForms UI, an Entity Framework data layer, and a DBF migration tool.</p>
+        <p>It includes audit logging, attachments, and CSV export.</p>
+        <p>The roadmap covers Roads/GIS import, map integration, and batch operations.</p>
+      </div>
       <div class="card">
         <div class="card-tag">Windows Administration</div>
         <h4>AD2GO</h4>
         <p>AD2GO is a secure web application that allows authorized users to manage their company’s Active Directory (AD) directly from their phones.</p>   
         <p>Instead of being tied to a workstation, administrators can perform tasks such as creating user accounts, viewing inventory, and resetting passwords from any iOS or Android device.</p>
 
-        <h5>On the technical side:</h5>
-        <p>AD2GO uses Python and FastAPI for the backend, which connects to the target Active Directory through secure LDAP (LDAPS).</p>
+        <p><strong>On the technical side:</strong> AD2GO uses Python and FastAPI for the backend, which connects to the target Active Directory through secure LDAP (LDAPS).</p>
         <p>To protect remote access, the application is published through a Cloudflare Tunnel over HTTPS and uses JWT-based authentication.</p>
         <p>The frontend is a Progressive Web App (PWA), AD2GO.ca, built with HTML, CSS, and JavaScript in Visual Studio Code.</p>
-        
         <div class="card-links">
           <a href="https://ad2go.ca" target="_blank">Live Demo</a>
         </div>
@@ -48,7 +54,6 @@
         <h4>Hermes Hub</h4>
         <p>Working in a team of three, we built a secure cloud storage solution with Nextcloud for file sharing and collaboration.</p>
         <p>The project included provisioning a Raspberry Pi 4 and configuring user management and access controls to deliver a practical self-hosted platform with strong privacy controls.</p>
-        
         <div class="card-links">
           <a href="https://nscc.sharepoint.com/sites/HermesHub" target="_blank">Live Demo</a>
         </div>
@@ -59,20 +64,37 @@
         <p>Fort Faux was a capstone project delivered by a four-person IT Systems Management and Security team at NSCC Truro.</p>
         <p>We designed and documented a mid-complexity network for a simulated educational center, deploying Windows Server 2025, Security Onion, Wazuh, and Windows 11 clients while building red-team versus blue-team scenarios for security testing.</p>
         <p>The project strengthened my practical skills in infrastructure planning, documentation, and defensive security operations.</p>
-        
         <div class="card-links">
           <a href="https://github.com/ADCharter/fortfaux.local" target="_blank">GitHub</a>
         </div>
+      </div>
+      <div class="card">
+        <div class="card-tag">Application Development</div>
+        <h4>FoxPro Mailing Label Replacement</h4>
+        <p>In progress: modernizing a legacy FoxPro mailing label system with PDF output.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">Python</div>
+        <h4>Python Budget Tracker</h4>
+        <p>A personal project focused on clean architecture decisions, using dataclasses, Decimal for money, and CSV persistence.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">Security</div>
+        <h4>OT/ICS Security Study</h4>
+        <p>A self-directed study track covering IT/OT boundary exposure audits for municipal water and wastewater.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">Documentation</div>
+        <h4>User Research Documentation</h4>
+        <p>User research documentation published as a GitHub project.</p>
       </div>
       <div class="card">
         <div class="card-tag">Web Development</div>
         <h4>This Portfolio</h4>
         <p>This portfolio highlights projects and skills developed throughout my IT Systems Management and Security program.</p>
         <p>Built with HTML, CSS, and JavaScript, it is designed for accessibility, responsive viewing across devices, and clear navigation for employers and collaborators.</p>
-        
         <div class="card-links">
           <a href="https://github.com/adcharter" target="_blank">GitHub</a>
-          
         </div>
       </div>
     </div>
